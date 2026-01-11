@@ -19,6 +19,7 @@ Garantir que o último nome aponte para o primeiro
 Reiniciar todo o sorteio e limpar as listas
 
 🧠 Como funciona
+
 🔹 adicionar()
 
 Lê o nome digitado pelo usuário
@@ -61,18 +62,6 @@ for (let indice = lista.length; indice; indice--) {
 Limpa o array amigos
 
 Reseta o conteúdo exibido na tela
-
-📂 Estrutura esperada do HTML
-<input id="nome-amigo" type="text">
-<button onclick="adicionar()">Adicionar</button>
-
-<div id="lista-amigos"></div>
-
-<button onclick="sortear()">Sortear</button>
-
-<div id="lista-sorteio"></div>
-
-<button onclick="reiniciar()">Reiniciar</button>
 
 📌 Tecnologias utilizadas
 
